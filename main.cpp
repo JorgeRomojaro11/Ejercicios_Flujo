@@ -1,8 +1,8 @@
 #include <iostream>
-#include "triangulo.h"
-#include "Circulo.h"
-#include "Rombo.h"
-#include "Trapecio.h"
+#include "triangulo.cpp"
+#include "Circulo.cpp"
+#include "Rombo.cpp"
+#include "Trapecio.cpp"
 
 int main() {
     double base, altura, radio, diagonalMayor, diagonalMenor, baseMayor, baseMenor;
