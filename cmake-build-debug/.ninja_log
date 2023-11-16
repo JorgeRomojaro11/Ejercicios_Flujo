@@ -2,6 +2,8 @@
 3	469	7218384567162139	CMakeFiles/Ejercicios_Flujo.dir/subespacios.cpp.obj	762c90eb94e1f365
 6	549	7218383611615001	CMakeFiles/Ejercicios_Flujo.dir/clase_nombres.cpp.obj	decd7480e4ab2839
 4	143	7218384989091052	Ejercicios_Flujo.exe	ecdc86302a128355
-2	248	7218385318102855	build.ninja	500fde5e96fbeea4
+2	248	7218387663586774	build.ninja	500fde5e96fbeea4
 1	1205	7218385632728845	CMakeFiles/clase_nombres.dir/clase_nombres.cpp.obj	e8df844b2420bf3b
 1207	1349	7218385634128805	clase_nombres.exe	52ce0eaa124225c3
+0	1268	7218389358647319	CMakeFiles/presentacionesstl.dir/presentacionesstl.cpp.obj	2d633d9402a9435f
+1269	1453	7218389360462473	presentacionesstl.exe	35af733d0807cb80

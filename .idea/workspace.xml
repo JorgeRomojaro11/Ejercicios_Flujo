@@ -12,6 +12,7 @@
   <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="Ejercicios_Flujo" targetName="Ejercicios_Flujo" />
+      <config projectName="Ejercicios_Flujo" targetName="clase_nombres" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -20,7 +21,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49ca5a18-e7af-4901-8de0-a9a1519232b7" name="Changes" comment="" />
+    <list default="true" id="49ca5a18-e7af-4901-8de0-a9a1519232b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/presentacionesstl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +69,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="CMake Application.clase_nombres">
+  <component name="RunManager" selected="CMake Application.presentacionesstl">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -81,9 +85,15 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="presentacionesstl" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Ejercicios_Flujo" TARGET_NAME="presentacionesstl" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Ejercicios_Flujo" RUN_TARGET_NAME="presentacionesstl">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.clase_nombres" />
       <item itemvalue="CMake Application.Ejercicios_Flujo" />
+      <item itemvalue="CMake Application.presentacionesstl" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -94,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700134169917</updated>
-      <workItem from="1700134176684" duration="1145000" />
+      <workItem from="1700134176684" duration="1377000" />
     </task>
     <servers />
   </component>

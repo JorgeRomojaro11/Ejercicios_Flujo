@@ -106,6 +106,39 @@ build clase_nombres.exe: CXX_EXECUTABLE_LINKER__clase_nombres_Debug CMakeFiles/c
   TARGET_IMPLIB = libclase_nombres.dll.a
   TARGET_PDB = clase_nombres.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target presentacionesstl
+
+
+#############################################
+# Order-only phony target for presentacionesstl
+
+build cmake_object_order_depends_target_presentacionesstl: phony || CMakeFiles/presentacionesstl.dir
+
+build CMakeFiles/presentacionesstl.dir/presentacionesstl.cpp.obj: CXX_COMPILER__presentacionesstl_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/Ejercicios_Flujo/presentacionesstl.cpp || cmake_object_order_depends_target_presentacionesstl
+  DEP_FILE = CMakeFiles\presentacionesstl.dir\presentacionesstl.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\presentacionesstl.dir
+  OBJECT_FILE_DIR = CMakeFiles\presentacionesstl.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target presentacionesstl
+
+
+#############################################
+# Link the executable presentacionesstl.exe
+
+build presentacionesstl.exe: CXX_EXECUTABLE_LINKER__presentacionesstl_Debug CMakeFiles/presentacionesstl.dir/presentacionesstl.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\presentacionesstl.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = presentacionesstl.exe
+  TARGET_IMPLIB = libpresentacionesstl.dll.a
+  TARGET_PDB = presentacionesstl.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,6 +169,8 @@ build Ejercicios_Flujo: phony Ejercicios_Flujo.exe
 
 build clase_nombres: phony clase_nombres.exe
 
+build presentacionesstl: phony presentacionesstl.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -144,7 +179,7 @@ build clase_nombres: phony clase_nombres.exe
 #############################################
 # Folder: C:/Users/alber_wzgn3ys/Documents/GitHub/Ejercicios_Flujo/cmake-build-debug
 
-build all: phony Ejercicios_Flujo.exe clase_nombres.exe
+build all: phony Ejercicios_Flujo.exe clase_nombres.exe presentacionesstl.exe
 
 # =============================================================================
 # Built-in targets
