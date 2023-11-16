@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Ejercicios_Flujo.exe"
+			"path" : "clase_nombres.exe"
 		},
 		{
-			"path" : "Ejercicios_Flujo.pdb"
+			"path" : "clase_nombres.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 8,
 				"parent" : 0
 			}
 		]
@@ -52,12 +52,11 @@
 			},
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
-	"id" : "Ejercicios_Flujo::@6890427a1f51a3e7e1df",
+	"id" : "clase_nombres::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -77,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Ejercicios_Flujo",
-	"nameOnDisk" : "Ejercicios_Flujo.exe",
+	"name" : "clase_nombres",
+	"nameOnDisk" : "clase_nombres.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -90,8 +89,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
@@ -101,12 +99,6 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "clase_nombres.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "subespacios.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

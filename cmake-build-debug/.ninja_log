@@ -1,3 +1,7 @@
 # ninja log v5
-1	1539	7218378203450610	CMakeFiles/Ejercicios_Flujo.dir/clase_nombres.cpp.obj	decd7480e4ab2839
-1542	1723	7218378205235583	Ejercicios_Flujo.exe	734980ba6860f544
+3	469	7218384567162139	CMakeFiles/Ejercicios_Flujo.dir/subespacios.cpp.obj	762c90eb94e1f365
+6	549	7218383611615001	CMakeFiles/Ejercicios_Flujo.dir/clase_nombres.cpp.obj	decd7480e4ab2839
+4	143	7218384989091052	Ejercicios_Flujo.exe	ecdc86302a128355
+2	248	7218385318102855	build.ninja	500fde5e96fbeea4
+1	1205	7218385632728845	CMakeFiles/clase_nombres.dir/clase_nombres.cpp.obj	e8df844b2420bf3b
+1207	1349	7218385634128805	clase_nombres.exe	52ce0eaa124225c3

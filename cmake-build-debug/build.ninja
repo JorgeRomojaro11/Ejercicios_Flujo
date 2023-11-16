@@ -49,12 +49,6 @@ cmake_ninja_workdir = C$:/Users/alber_wzgn3ys/Documents/GitHub/Ejercicios_Flujo/
 
 build cmake_object_order_depends_target_Ejercicios_Flujo: phony || CMakeFiles/Ejercicios_Flujo.dir
 
-build CMakeFiles/Ejercicios_Flujo.dir/clase_nombres.cpp.obj: CXX_COMPILER__Ejercicios_Flujo_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/Ejercicios_Flujo/clase_nombres.cpp || cmake_object_order_depends_target_Ejercicios_Flujo
-  DEP_FILE = CMakeFiles\Ejercicios_Flujo.dir\clase_nombres.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Ejercicios_Flujo.dir
-  OBJECT_FILE_DIR = CMakeFiles\Ejercicios_Flujo.dir
-
 build CMakeFiles/Ejercicios_Flujo.dir/subespacios.cpp.obj: CXX_COMPILER__Ejercicios_Flujo_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/Ejercicios_Flujo/subespacios.cpp || cmake_object_order_depends_target_Ejercicios_Flujo
   DEP_FILE = CMakeFiles\Ejercicios_Flujo.dir\subespacios.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
@@ -69,7 +63,7 @@ build CMakeFiles/Ejercicios_Flujo.dir/subespacios.cpp.obj: CXX_COMPILER__Ejercic
 #############################################
 # Link the executable Ejercicios_Flujo.exe
 
-build Ejercicios_Flujo.exe: CXX_EXECUTABLE_LINKER__Ejercicios_Flujo_Debug CMakeFiles/Ejercicios_Flujo.dir/clase_nombres.cpp.obj CMakeFiles/Ejercicios_Flujo.dir/subespacios.cpp.obj
+build Ejercicios_Flujo.exe: CXX_EXECUTABLE_LINKER__Ejercicios_Flujo_Debug CMakeFiles/Ejercicios_Flujo.dir/subespacios.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Ejercicios_Flujo.dir
@@ -78,6 +72,39 @@ build Ejercicios_Flujo.exe: CXX_EXECUTABLE_LINKER__Ejercicios_Flujo_Debug CMakeF
   TARGET_FILE = Ejercicios_Flujo.exe
   TARGET_IMPLIB = libEjercicios_Flujo.dll.a
   TARGET_PDB = Ejercicios_Flujo.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target clase_nombres
+
+
+#############################################
+# Order-only phony target for clase_nombres
+
+build cmake_object_order_depends_target_clase_nombres: phony || CMakeFiles/clase_nombres.dir
+
+build CMakeFiles/clase_nombres.dir/clase_nombres.cpp.obj: CXX_COMPILER__clase_nombres_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/Ejercicios_Flujo/clase_nombres.cpp || cmake_object_order_depends_target_clase_nombres
+  DEP_FILE = CMakeFiles\clase_nombres.dir\clase_nombres.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\clase_nombres.dir
+  OBJECT_FILE_DIR = CMakeFiles\clase_nombres.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target clase_nombres
+
+
+#############################################
+# Link the executable clase_nombres.exe
+
+build clase_nombres.exe: CXX_EXECUTABLE_LINKER__clase_nombres_Debug CMakeFiles/clase_nombres.dir/clase_nombres.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\clase_nombres.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = clase_nombres.exe
+  TARGET_IMPLIB = libclase_nombres.dll.a
+  TARGET_PDB = clase_nombres.exe.dbg
 
 
 #############################################
@@ -107,6 +134,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build Ejercicios_Flujo: phony Ejercicios_Flujo.exe
 
+build clase_nombres: phony clase_nombres.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -115,7 +144,7 @@ build Ejercicios_Flujo: phony Ejercicios_Flujo.exe
 #############################################
 # Folder: C:/Users/alber_wzgn3ys/Documents/GitHub/Ejercicios_Flujo/cmake-build-debug
 
-build all: phony Ejercicios_Flujo.exe
+build all: phony Ejercicios_Flujo.exe clase_nombres.exe
 
 # =============================================================================
 # Built-in targets

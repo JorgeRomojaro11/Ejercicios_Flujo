@@ -20,10 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49ca5a18-e7af-4901-8de0-a9a1519232b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/clase_nombres.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subespacios.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="49ca5a18-e7af-4901-8de0-a9a1519232b7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +65,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake Application.clase_nombres">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -79,6 +76,15 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="clase_nombres" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Ejercicios_Flujo" TARGET_NAME="clase_nombres" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Ejercicios_Flujo" RUN_TARGET_NAME="clase_nombres">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.clase_nombres" />
+      <item itemvalue="CMake Application.Ejercicios_Flujo" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700134169917</updated>
-      <workItem from="1700134176684" duration="892000" />
+      <workItem from="1700134176684" duration="1145000" />
     </task>
     <servers />
   </component>

@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "Ejercicios_Flujo",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -39,8 +41,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Ejercicios_Flujo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Ejercicios_Flujo-Debug-55d6c834b5121a8c7116.json",
+					"jsonFile" : "target-Ejercicios_Flujo-Debug-5493c3fa89879cac1797.json",
 					"name" : "Ejercicios_Flujo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clase_nombres::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clase_nombres-Debug-2576f2d0ebd46c8287a7.json",
+					"name" : "clase_nombres",
 					"projectIndex" : 0
 				}
 			]

@@ -1,3 +1,4 @@
 C:/Users/alber_wzgn3ys/Documents/GitHub/Ejercicios_Flujo/cmake-build-debug/CMakeFiles/Ejercicios_Flujo.dir
+C:/Users/alber_wzgn3ys/Documents/GitHub/Ejercicios_Flujo/cmake-build-debug/CMakeFiles/clase_nombres.dir
 C:/Users/alber_wzgn3ys/Documents/GitHub/Ejercicios_Flujo/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/alber_wzgn3ys/Documents/GitHub/Ejercicios_Flujo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
